@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="ar" dir="rtl">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,8 +17,9 @@
         <!-- Styles -->
         @livewireStyles
     </head>
-    <body class="font-sans antialiased">
+    <body class="min-h-screen font-sans antialiased bg-base-200/50 dark:bg-base-200">
         <x-banner />
+        <x-toast />
 
         <div class="min-h-screen bg-gray-100">
             @livewire('navigation-menu')

@@ -5,3 +5,17 @@
 [x-cloak] {
     display: none;
 }
+/* Custom RTL Adjustments */
+html[dir="rtl"] {
+    .ml-auto {
+        margin-right: auto !important;
+        margin-left: 0 !important;
+    }
+
+    .mr-auto {
+        margin-left: auto !important;
+        margin-right: 0 !important;
+    }
+
+    /* Any other custom RTL styling you need */
+}
